@@ -115,8 +115,8 @@ Steps to make the code work:
   #include "FastSerial.h"
   void setup()
   {
-    //Initialise the FastSerial object with a baudrate of 1Gbps (1000000Mpbs)
-    FastSerial0.begin(1000000); //Or use the other serial: FastSerial1, FastSerial2, Fastserial3
+    //Initialise the FastSerial object with a baudrate of 1Mbps (1000000bps)
+    FastSerial0.begin(1000000); //Or use the other serial: FastSerial1, FastSerial2, FastSerial3
   }
 
   void loop()
